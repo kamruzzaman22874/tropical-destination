@@ -10,7 +10,7 @@ const Navbar = () => {
             <li><Link to="/pricing">Pricing</Link></li>
         </>
     return (
-        <div className="navbar bg-[#FFF] px-10">
+        <nav className="navbar bg-[#FFF] px-10">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -30,7 +30,7 @@ const Navbar = () => {
                 <Link className="mr-10">Offers</Link>
                 <Link className="bg-[#F27A44] rounded-full px-5 py-2 text-white cursor-pointer">Courses</Link>
             </div>
-        </div>
+        </nav>
     );
 };
 
