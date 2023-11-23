@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "title": "Harvard University",
+        "image": "https://i.ibb.co/y0XNRfZ/card-image.png",
+        "address": "Cambridge, Massachusetts, UK"
+    },
+    {
+        "_id": 2,
+        "title": "Oxford University",
+        "image": "https://i.ibb.co/qDmj6jt/card-image-1.png",
+        "address": "Oxford, England"
+    },
+    {
+        "_id": 3,
+        "title": "Stanford University",
+        "image": "https://i.ibb.co/QJmY2R1/card-image-2.png",
+        "address": "Stanford, California"
+    },
+    {
+        "_id": 4,
+        "title": "Nanyang Technology",
+        "image": "https://i.ibb.co/MGy7yMp/card-image-3.png",
+        "address": "Nanyang Ave, Singapura"
+    }
+]
