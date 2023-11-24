@@ -2,13 +2,13 @@ import img1 from "../../../assets/Group 167.png"
 const Adventure = () => {
     return (
         <div className="my-20 px-10">
-            <h2 className="text-center text-2xl font-bold my-10 uppercase border-b-4 w-[150px] mx-auto">adventure</h2>
+            <h2 className="text-center text-2xl font-bold my-10 uppercase border-b-4 md:w-[150px] mx-auto">adventure</h2>
 
-            <div className="md:flex justify-between md:px-48">
+            <div className="md:flex w-full justify-between items-center md:px-48">
                 <div>
                     <div className="flex md:flex-row flex-col justify-center items-center shadow-lg p-3 rounded-lg mb-8">
-                        <img className="w-20 h-20" src={img1} alt="" />
-                        <div className="ml-3">
+                        <img className="w-20 h-20 " src={img1} alt="" />
+                        <div className="ml-3  py-3">
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing...</p>
                         </div>
