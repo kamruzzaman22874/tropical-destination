@@ -1,16 +1,18 @@
 import { useState } from "react";
 import img1 from "../../../assets/Group 167.png"
+import img2 from "../../../assets/Subtract (2).svg"
 import { FaPlus, FaMinus } from "react-icons/fa6";
 
 const Booking = () => {
     const [increase, setIncrease] = useState(0)
     const [star, setStar] = useState(0)
     return (
-        <div className="grid md:grid-cols-2 gap-10 justify-center items-center w-full px-10">
-            <div className="h-full flex justify-center">
+        <div className="grid md:grid-cols-2 gap-10 justify-center  w-full px-10">
+            <div className="h-full flex justify-center relative">
                 <img className="md:w-[400px] w-[400px]" src={img1} alt="" />
+                <img className="w-10 absolute right-10 top-36 text-yellow-50" src={img2} alt="" />
             </div>
-            <div className="shadow-lg rounded-lg">
+            <div className="shadow-lg rounded-lg mt-24">
                 <div className="card-body">
                     <h2 className="text-2xl font-bold">Book Now</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
