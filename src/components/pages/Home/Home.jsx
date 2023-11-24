@@ -3,6 +3,7 @@ import Banner from "../Banner/Banner";
 import Booking from "../Booking/Booking";
 import Destination from "../Destination/Destination";
 import Discount from "../Discount/Discount";
+import SpecialDiscount from "../SpecialDiscount/SpecialDiscount";
 import Testimonials from "../Testimonials/Testimonials";
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Discount />
             <Booking />
             <Testimonials />
+            <SpecialDiscount />
         </div>
     );
 };

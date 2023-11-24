@@ -4,31 +4,31 @@ const Adventure = () => {
         <div className="my-20 px-10">
             <h2 className="text-center text-2xl font-bold my-10 uppercase border-b-4 md:w-[150px] mx-auto">adventure</h2>
 
-            <div className="md:flex w-full justify-between items-center md:px-48">
-                <div>
-                    <div className="flex md:flex-row flex-col justify-center items-center shadow-lg p-3 rounded-lg mb-8">
-                        <img className="w-20 h-20 " src={img1} alt="" />
-                        <div className="ml-3  py-3">
+            <div className="grid grid-cols-1 md:grid-cols-2   gap-20  items-center">
+                <div className="w-full space-y-5">
+                    <div className="flex md:flex-row flex-col md:w-[320px] mx-auto items-center shadow-lg p-3 rounded-lg mb-8 space-y-3">
+                        <img className="w-20 h-20" src={img1} alt="" />
+                        <div className="ml-3 text-center md:text-start">
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing...</p>
                         </div>
                     </div>
-                    <div className="flex md:flex-row flex-col justify-center items-center shadow-lg p-3 rounded-lg mb-8">
+                    <div className="flex md:flex-row flex-col md:w-[320px] mx-auto items-center shadow-lg p-3 rounded-lg mb-8 space-y-3">
                         <img className="w-20 h-20" src={img1} alt="" />
-                        <div className="ml-3">
+                        <div className="ml-3 text-center md:text-start">
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing...</p>
                         </div>
                     </div>
-                    <div className="flex md:flex-row flex-col justify-center items-center shadow-lg p-3 rounded-lg mb-8">
+                    <div className="flex md:flex-row flex-col md:w-[320px] mx-auto  items-center shadow-lg p-3 rounded-lg mb-8 space-y-3">
                         <img className="w-20 h-20" src={img1} alt="" />
-                        <div className="ml-3">
+                        <div className="ml-3 text-center md:text-start">
                             <h2 className="font-bold">Jenny Wilson</h2>
                             <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing...</p>
                         </div>
                     </div>
                 </div>
-                <div className="px-6 h-full">
+                <div className="px-6">
                     <h2 className="text-2xl font-bold mb-2">
                         Tropical Adventure <br />
                         <span>for Students.</span>

@@ -5,7 +5,7 @@ const Testimonials = () => {
     return (
         <div className="my-20 px-20">
             <h2 className="text-center text-2xl font-bold">Testimonials</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 my-20">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 my-20">
                 <div className="flex flex-col justify-center items-center space-y-3">
                     <div className="avatar">
                         <div className="w-24 rounded-full">

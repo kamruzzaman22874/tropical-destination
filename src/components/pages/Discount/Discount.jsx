@@ -18,7 +18,7 @@ const Discount = () => {
                     </ul>
                     <button className="bg-orange-500 my-16 text-white rounded-full px-5 py-2">Explore More</button>
                 </div>
-                <div className="">
+                <div className="flex justify-center">
                     <img className="w-[350px]" src={image} alt="" />
                 </div>
             </div>
