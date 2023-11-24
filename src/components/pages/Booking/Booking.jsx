@@ -52,15 +52,15 @@ const Booking = () => {
                         </div>
                         <div className="form-control md:w-1/2">
                             <label className="label">
-                                <span className="label-text uppercase">star</span>
+                                <span className="label-text uppercase">room</span>
                             </label>
                             <div className="flex h-12 bg-[#F3F3F3] gap-8 items-center rounded-lg shadow-xl">
                                 <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
-                                    <FaMinus onClick={() => setIncrease(star - 1)} />
+                                    <FaMinus onClick={() => setIncrease(increase - 1)} />
                                 </button>
                                 <p className="px-3 text-center">{increase}</p>
                                 <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
-                                    <FaPlus onClick={() => setIncrease(star + 1)} />
+                                    <FaPlus onClick={() => setIncrease(increase + 1)} />
                                 </button>
                             </div>
 
