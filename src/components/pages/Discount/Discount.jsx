@@ -10,7 +10,7 @@ const Discount = () => {
             {/* <h2>Discount</h2> */}
             <img className="absolute w-8 md:left-[450px] right-[16rem] -top-8" src={logo1} alt="" />
             <div className="md:flex relative  justify-center md:gap-20 items-center">
-                <img className="w-5 absolute md:left-44 md:top-0 -top-10" src={logo} alt="" />
+                <img className="w-5 absolute md:left-16 lg:left-44  md:top-0 -top-10" src={logo} alt="" />
                 <div className="md:ml-16 my-10 relative ">
                     <p>Get 20% off for student</p>
                     <img className="absolute -right-5 w-4" src={logo2} alt="" />
