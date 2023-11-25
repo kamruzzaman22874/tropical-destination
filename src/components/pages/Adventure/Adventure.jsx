@@ -6,7 +6,7 @@ const Adventure = () => {
         <div className="my-20 px-10">
             <div className="flex relative">
                 {/* <h2 className="text-center text-2xl font-bold my-10 uppercase border-b-4 md:w-[150px] mx-auto">adventure</h2> */}
-                <img className="w-20 absolute md:right-72 right-14 -top-10" src={img2} alt="" />
+                <img className="w-20 absolute md:right-32 right-16 lg:right-72 -top-10" src={img2} alt="" />
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2  my-20 gap-20  items-center">
