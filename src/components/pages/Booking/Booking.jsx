@@ -42,11 +42,11 @@ const Booking = () => {
                                 <span className="label-text uppercase">star</span>
                             </label>
                             <div className="flex h-12 bg-[#F3F3F3] gap-8 items-center rounded-lg shadow-xl">
-                                <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
+                                <button className="bg-zinc-200/75 rounded h-full w-10 flex justify-center items-center ">
                                     <FaMinus onClick={() => setStar(star - 1)} />
                                 </button>
                                 <p className="px-3 text-center">{star}</p>
-                                <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
+                                <button className="bg-zinc-200/75 rounded h-full w-10 flex justify-center items-center ">
                                     <FaPlus onClick={() => setStar(star + 1)} />
                                 </button>
                             </div>
@@ -57,11 +57,11 @@ const Booking = () => {
                                 <span className="label-text uppercase">room</span>
                             </label>
                             <div className="flex h-12 bg-[#F3F3F3] gap-8 items-center rounded-lg shadow-xl">
-                                <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
+                                <button className="bg-zinc-200/75 rounded h-full w-10 flex justify-center items-center ">
                                     <FaMinus onClick={() => setIncrease(increase - 1)} />
                                 </button>
                                 <p className="px-3 text-center">{increase}</p>
-                                <button className="bg-[#f7dada] rounded h-full w-10 flex justify-center items-center ">
+                                <button className="bg-zinc-200/75 rounded h-full w-10 flex justify-center items-center ">
                                     <FaPlus onClick={() => setIncrease(increase + 1)} />
                                 </button>
                             </div>
